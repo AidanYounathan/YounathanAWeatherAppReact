@@ -1,6 +1,7 @@
 Aidan Younathan
 Weather App Rebuild
-Brief Description
+03/31/24 Happy Easter
+Brief Description:  I tried to rebuild my weather app original figma in next.js. Im Sorry, I have not been doing good mentally or physically and Im struggling with react api usage + TS. 
 
 Peer Review: Elizabeth Rasuli
 
