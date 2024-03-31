@@ -2,8 +2,9 @@ Aidan Younathan
 Weather App Rebuild
 Brief Description
 
+Peer Review: Elizabeth Rasuli
 
-
+Although the display doesn't really work yet, I can see that you have code for the front end and back end separately, so all you needed to do was connect the back end data with the front. Good effort!!
 
 
 
