@@ -48,7 +48,7 @@ const WeatherAppComponent = () => {
     <div className="flex justify-center">
       <div className=" max-w-[1241px] w-full mt-8 mx-3">
         {/* Navbar */}
-        <div className="w-full bg-[#54595E] rounded-[20px] flex sm:justify-between justify-evenly items-center h-[108px] bg-opacity-90">
+        <div className=" bg-[#54595E] rounded-[20px] flex sm:justify-between justify-evenly items-center h-[108px] bg-opacity-90">
           <div className="ml-[17px]">
             <img
               src={logo.src}
@@ -63,7 +63,7 @@ const WeatherAppComponent = () => {
                 Favorite
               </p>
               {/* SearchBar */}
-              <div className="flex rounded-3xl w-2/3 sm:w-full lg:w-[444px] max-w-[444px]">
+              <div className="flex rounded-3xl w-2/3 sm:lg:w-[444px] max-w-[444px]">
                 <div className="relative w-full">
                   <div
                     data-testid="right-icon"
@@ -98,7 +98,11 @@ const WeatherAppComponent = () => {
         {/* End Navbar */}
         {/* Main/Middle Div */}
 
-        <div className="h-[342px] bg-[rgba(165,170,175,.85)] rounded-[20px] mt-7">
+
+        {/* Make Responsive */}
+        {/* Make Functional */}
+
+        <div className="max-h-[342px] bg-[rgba(165,170,175,.85)] rounded-[20px] mt-7">
           <div className="grid grid-cols-3 gap-4 h-full">
             {/* Column 1 with 3 rows */}
             <div className="col-span-1 md:ml-10">
@@ -132,7 +136,24 @@ const WeatherAppComponent = () => {
             </div>
           </div>
         </div>
+
+
+{/* 28 38 1/2 */}
+
+
+
+
+
+
+
         {/* End Main/Middle Div */}
+        {/* Start Forecast */}
+        <div className="mt-[27px] md:h-[378px] bg-white opacity-80 rounded-[20px]">
+          <div >
+
+          </div>
+        </div>
+        {/* End Forecast */}
       </div>
     </div>
   );
